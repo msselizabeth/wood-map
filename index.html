@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato&family=Montserrat:wght@400;500&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Головна</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="section header">
+        <div class="container header-social__container">
+            <ul class="header-social__list list">
+                <li class="header-social__item item">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon" aria-label="Посилання на">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__item item ">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon" aria-label="Посилання на">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__item item">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon" aria-label="Посилання на">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__item item ">
+                    <a href="#" class="header-social__link link">
+                        <svg class="header-social__icon" aria-label="Посилання на">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social__item item">
+                    <a href="#" class="header-social__link link" aria-label="Посилання на">
+                        <svg class="header-social__icon">
+                            <use href="./images/icons.svg#icon-blogger"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <div>
+                <a class="header-social__tel link" href="tel:380971703321">+380 (97) 17 033 21</a>
+                <p class="header-social__text">Натисніть, щоб подзвонити.</p>
+            </div>
+        </div>
+
+        <div class="container mobile-menu"> 
+            <button class="mobile-menu-open-btn" type="button" data-menu-open>
+                <svg class="mobile-menu-icon"><use href="./images/icons.svg#icon-menu-open"></use>
+                </svg>
+            <span class="mobile-menu-word">Меню</span>
+        </button>
+
+        
+            
+                <picture>
+                    <source srcset="./images/logo-mobile-1x.png 1x,
+                    ./images/logo-mobile@2x.png 2x"
+                    type="image/png"
+                    media="(max-width:767px">
+                    <img class="logo" src="./images/logo-mobile-1x.png" alt="Логотип компанії">
+                </picture>
+
+                <a class="basket-link link" href="#">
+                    <svg class="basket-icon"><use href="./images/icons.svg#icon-basket"></use>
+                    </svg>
+                </a>
+            </div>
+
+
+
+            <!--Мобільне меню-->
+
+        <div class="mobile-menu-open" data-menu>
+            <div class="container mobile-menu__contanier" >
+                <button class="mobile-menu-close-btn" type="button" data-menu-close >
+                    <svg class="mobile-menu-close-icon"><use href="./images/icons.svg#icon-menu-close"></use></svg>
+                </button>
+    
+                <h2 class="mobile-menu__title">Меню</h2>
+                <ul class="mobile-menu__lang--list list">
+                    <li class="mobile-menu__lang--item">УКР</li>
+                    <li class="mobile-menu__lang--item"><span lang="en">EN</span></li>
+                </ul>
+                <div class="mobile-menu__contact--container">
+                    <a class="mobile-menu__contact--tel link" href="tel:380971703321">+380 (97) 17 033 21</a>
+                    <p class="mobile-menu__contact--text">Натисніть, щоб подзвонити.</p>
+                </div>
+    
+                <ul class="mobile-menu__nav--list list">
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Головна сторінка</a></li>
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Про компанію</a></li>
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Наш блог</a></li>
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Каталог продукції</a></li>
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Оплата й доставка</a></li>
+                    <li class="mobile-menu__nav--item">
+                        <a class="mobile-menu__nav--link link" href="#">Контакти</a></li>
+                </ul>
+    
+                <ul class="mobile-menu__info--list list">
+                    <li class="mobile-menu__info--item">
+                        <a class="mobile-menu__info--link link" href="#">Оферта</a></li>
+                    <li class="mobile-menu__info--item">
+                        <a class="mobile-menu__info--link link" href="#">Доставка</a></li>
+                    <li class="mobile-menu__info--item">
+                        <a class="mobile-menu__info--link link" href="#">FAQ</a></li>
+                </ul>
+    
+                <ul class="mobile-menu__social--list list">
+                    <li class="mobile-menu__social--item"><a class="mobile-menu__social--link link" href="#">
+                        <svg class="mobile-menu__social--icon"><use href="./images/icons.svg#icon-facebook"></use></svg>
+                    </a></li>
+                    <li class="mobile-menu__social--item"><a class="mobile-menu__social--link link" href="#">
+                        <svg class="mobile-menu__social--icon"><use href="./images/icons.svg#icon-instagram"></use></svg>
+                    </a></li>
+                    <li class="mobile-menu__social--item"><a class="mobile-menu__social--link link" href="#">
+                        <svg class="mobile-menu__social--icon"><use href="./images/icons.svg#icon-twitter"></use></svg>
+                    </a></li>
+                </ul>
+    
+                <p class="copyright">&copy; 2022, Magic Wood Map</p>
+            </div>
+        </div>
+    </header>
+
+    <script src="./js/mobile.js"></script>
+</body>
+</html>

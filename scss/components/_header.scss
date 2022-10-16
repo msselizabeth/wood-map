@@ -1,0 +1,169 @@
+
+    // Стилі контейнеру соц мереж та телефону
+.header{ height: 110px;
+
+    background-image: linear-gradient(
+  to bottom,
+ var(--color-primary) 40px,
+  var(--color-white) 40px
+);
+}
+//     background-image: linear-gradient(to bottom ,
+//     var(--background-color-header) 40px,
+//     var(--color-white) 70px) ;
+// }
+
+.header-social__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+// Стилі списку соц мереж
+.header-social__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+// .header-social__link {
+
+
+//  &:focus , &:hover {
+//     fill: var(--color-active);
+//  }
+
+//  transition: fill 300ms cubic-bezier(.18,.97,.61,.76);
+// }
+
+// Стилі іконок списку соц мереж
+
+.header-social__icon{
+    width: 12px;
+    height: 12px;
+
+    &:hover , &:focus {
+        width: 16px;
+        height: 16px;
+    } 
+    
+}
+ 
+.header-social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+
+    fill: #ffffff;
+
+    &:hover , &:focus {
+        width: 16px;
+        height: 16px;
+        fill: var(--color-active);
+    }
+
+    transition: width 300ms cubic-bezier(.18,.97,.61,.76), 
+                height 300ms cubic-bezier(.18,.97,.61,.76),fill 300ms cubic-bezier(.18,.97,.61,.76);
+}
+
+// Cтилі номеру телефону в хедері
+
+.header-social__tel {
+    margin-left: auto;
+
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 12px;
+
+    &:hover , &:focus {
+         font-size: 14px;
+        color: var(--color-active);
+    }
+
+    transition: font-size 300ms cubic-bezier(.18,.97,.61,.76),
+    color 300ms cubic-bezier(.18,.97,.61,.76);
+}
+
+.header-social__text {
+color: #848484;
+font-weight: 500;
+font-size: 6px;
+line-height: 1.28;
+text-align: end;
+margin: 0;
+margin-top: 3px;
+}
+// Кнопка відкриття моб.меню
+
+.mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.mobile-menu-open-btn{
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    width: 91px;
+    height: 30px;
+
+    border: 0;
+    background-color: transparent;
+
+    &:hover , &:focus {
+        fill: var(--color-active);
+        color: var(--color-active);
+    }
+
+    transition: color 300ms cubic-bezier(.18,.97,.61,.76),
+    fill 300ms cubic-bezier(.18,.97,.61,.76);
+}
+
+.mobile-menu-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.mobile-menu-word {
+    font-size: 20px;
+}
+
+.logo {
+    width: 38px;
+    height: 44px;
+}
+
+
+
+.basket-icon {
+    width: 14px;
+    height: 14px;
+    
+}
+
+.basket-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    fill: var(--color-active);
+    
+    border-radius: 50%;
+    border: 1px solid var(--color-active);
+
+    &:hover , &:focus {
+        background-color: var(--color-active);
+        fill: var(--color-white); 
+    }
+
+    transition: fill 300ms cubic-bezier(.18,.97,.61,.76),
+    background-color 300ms cubic-bezier(.18,.97,.61,.76);
+}
+
