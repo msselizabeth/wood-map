@@ -8,10 +8,7 @@
   var(--color-white) 40px
 );
 }
-//     background-image: linear-gradient(to bottom ,
-//     var(--background-color-header) 40px,
-//     var(--color-white) 70px) ;
-// }
+
 
 .header-social__container {
     display: flex;
@@ -25,23 +22,16 @@
     display: flex;
     align-items: center;
     gap: 15px;
+
 }
 
-// .header-social__link {
 
 
-//  &:focus , &:hover {
-//     fill: var(--color-active);
-//  }
-
-//  transition: fill 300ms cubic-bezier(.18,.97,.61,.76);
-// }
-
-// Стилі іконок списку соц мереж
+// Стилі іконок списку соц мереж в хедері
 
 .header-social__icon{
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 
     &:hover , &:focus {
         width: 16px;
@@ -54,8 +44,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 
     fill: #ffffff;
 
@@ -76,10 +66,10 @@
 
     color: var(--color-white);
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 
     &:hover , &:focus {
-         font-size: 14px;
+         font-size: 15px;
         color: var(--color-active);
     }
 
@@ -90,7 +80,7 @@
 .header-social__text {
 color: #848484;
 font-weight: 500;
-font-size: 6px;
+font-size: 8px;
 line-height: 1.28;
 text-align: end;
 margin: 0;
@@ -112,6 +102,8 @@ margin-top: 3px;
 
     width: 91px;
     height: 30px;
+    font-size: 20px;
+    color: var(--color-primary);
 
     border: 0;
     background-color: transparent;
@@ -130,9 +122,7 @@ margin-top: 3px;
     height: 30px;
 }
 
-.mobile-menu-word {
-    font-size: 20px;
-}
+
 
 .logo {
     width: 38px;
